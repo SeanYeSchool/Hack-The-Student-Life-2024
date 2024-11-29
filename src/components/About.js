@@ -15,7 +15,11 @@ function About(){
             <Card.Body>
               <Card.Title>About Us</Card.Title>
               <Card.Text>
-                Here's some background about our team.
+                <b>Here's some background about "Counter Conflict".</b>
+                <br/>
+                <br/>
+                All of us face scheduling conflicts in our day-to-day lives.
+                And that is what inspired our team to build a project which focuses on implementing a calendar with a goal to help resolve scheduling conflicts.
               </Card.Text>
             </Card.Body>
           </Card>

@@ -15,7 +15,7 @@ function Home() {
             <Card.Body>
               <Card.Title>Meet Counter Conflicts</Card.Title>
               <Card.Text>
-                Our Midterm Scheduler to resolve conflicts with your exam schedules..!
+                Try out our calendar which resolves scheduling conflicts..!
               </Card.Text>
             </Card.Body>
           </Card>
