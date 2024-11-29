@@ -1,28 +1,25 @@
-import Card from 'react-bootstrap/Card';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import './Contact.css'
+import Button from 'react-bootstrap/Button';
 
-function Contact(){
+function Contact() {
     return (
-    <Container>
-      <Row>
-      </Row>
-      <Row>
-        <Col></Col>
-        <Col>
-          <Card style={{ width: '18rem' }}>
-            <Card.Body>
-              <Card.Title>Contact Us</Card.Title>
-              <Card.Text>
-                Please fill out the form below to reach us or report any problems.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col></Col>
-      </Row>
-    </Container>
+        <div className="container">
+
+            <Form className='form'>
+                <h3>Please fill out this form to report any issue or get in touch with us.</h3>
+                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                    <Form.Label>Email address</Form.Label>
+                    <Form.Control type="email" placeholder="name@example.com" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                    <Form.Label>Enter your message</Form.Label>
+                    <Form.Control as="textarea" rows={3} />
+                </Form.Group>
+                <Button className="button" variant="primary">Submit</Button>
+            </Form>
+        </div>
+
     );
 }
 
