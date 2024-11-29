@@ -16,8 +16,10 @@ function Home() {
             <Card.Body>
               <Card.Title>Meet Counter Conflicts</Card.Title>
               <Card.Text>
-                Try out our calendar which resolves scheduling conflicts..!
                 <img src={logo} alt="Logo"/>
+                <br/>
+                <br/>
+                Try out our calendar which resolves scheduling conflicts..!
               </Card.Text>
             </Card.Body>
           </Card>
