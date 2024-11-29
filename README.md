@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+## Inspiration
+This project is based on the second prompt for the hackathon. Our goal is to implement a calendar which removes the conflicts with the exam schedules that any university student might have.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a common problem that most of the university students tackle in their day-to-day lives, and our project targets to help them resolve all the conflicts easily and effectively.
 
-## Available Scripts
+## What it does
+The app allows professors to manage time conflicts when scheduling exams because students might have conflicting exam timings with other courses.
 
-In the project directory, you can run:
+## How we built it
+The project was built with React, and AWS amplify which allowed us to publish our application to the web as well as access APIs such as AWS bedrock and Voiceflow.
 
-### `npm start`
+## Challenges we ran into
+One of the main challenges that our team ran into was the time constraint. Having to create a project in such a fast paced environment required us to make a lot of tradeoffs such as how much time to allocate to the front end vs learning the AWS services. We also had issues with GitHub, but these were thankfully resolved and allowed us to better learn how to collaborate using the platform.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Accomplishments that we're proud of
+We are proud that we were able to create an AWS application during such a short hackathon.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What we learned
+We learnt to implement latest cloud technologies from AWS into our project This also one of our main challenges because we had to learn a new technology and use it in a very short amount of time.
 
-### `npm test`
+## What's next for Counter Conflict
+For future developments we would like to further develop our web application to be more integrated with full stack features. These would include having availability of professors be recorded on DynamoDB using our schedule page and interactive calendar. AWS bedrock will also be implemented to optimize these recorded schedules using LLM’s for creating a schedule that does not have overlapping tests. A student version would also be needed to avoid having overwhelming exam schedules.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
+amazon-bedrock
+amazon-web-services
+amplify
+inkscape
+react.js
 
-### `npm run build`
+## Try it out
+ main.dce3nb08vuggu.amplifyapp.com
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Devpost
+https://devpost.com/software/counter-conflict
