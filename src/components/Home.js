@@ -13,9 +13,9 @@ function Home() {
         <Col>
           <Card style={{ width: '18rem' }}>
             <Card.Body>
-              <Card.Title>Meet "Name"</Card.Title>
+              <Card.Title>Meet Counter Conflicts</Card.Title>
               <Card.Text>
-                Use our Midterm Scheduler to resolve conflicts with your exam schedules..!
+                Our Midterm Scheduler to resolve conflicts with your exam schedules..!
               </Card.Text>
             </Card.Body>
           </Card>
