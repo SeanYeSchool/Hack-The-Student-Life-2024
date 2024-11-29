@@ -1,6 +1,8 @@
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Home from './Home';
+import About from './About';
+import Contact from './Contact';
 
 function Navbar() {
   return (
@@ -13,10 +15,10 @@ function Navbar() {
         <Home/>
       </Tab>
       <Tab eventKey="profile" title="About Us">
-        Tab content for Profile
+        <About/>
       </Tab>
       <Tab eventKey="contact" title="Contact Us">
-        Tab content for Contact
+        <Contact/>
       </Tab>
     </Tabs>
   );

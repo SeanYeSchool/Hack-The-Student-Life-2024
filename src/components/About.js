@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function Home() {
-  return (
+function About(){
+    return (
     <Container>
       <Row>
       </Row>
@@ -13,9 +13,9 @@ function Home() {
         <Col>
           <Card style={{ width: '18rem' }}>
             <Card.Body>
-              <Card.Title>Meet "Name"</Card.Title>
+              <Card.Title>About Us</Card.Title>
               <Card.Text>
-                Use our Midterm Scheduler to resolve conflicts with your exam schedules..!
+                Here's some background about our team.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -23,7 +23,7 @@ function Home() {
         <Col></Col>
       </Row>
     </Container>
-  );
+    );
 }
 
-export default Home;
+export default About;
