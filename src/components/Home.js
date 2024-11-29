@@ -2,6 +2,7 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import logo from '../components/thumbnail.png'
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
               <Card.Title>Meet Counter Conflicts</Card.Title>
               <Card.Text>
                 Try out our calendar which resolves scheduling conflicts..!
+                <img src={logo} alt="Logo"/>
               </Card.Text>
             </Card.Body>
           </Card>
